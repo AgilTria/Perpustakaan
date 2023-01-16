@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace perpustakaan_app
@@ -146,6 +147,12 @@ namespace perpustakaan_app
         {
             pg.next();
             show_all_pegawai();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new form_login().Show();
+            this.Hide();
         }
     }
 }

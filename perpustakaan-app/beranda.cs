@@ -16,7 +16,7 @@ namespace perpustakaan_app
         {
             InitializeComponent();
 
-            update_statistik();
+           /* update_statistik();*/
 
             update_panel();
         }
@@ -34,7 +34,7 @@ namespace perpustakaan_app
             txt_jml_pinjam.Text = jml_pinjam;
         }
 
-        private void update_statistik()
+       /* private void update_statistik()
         {
             List<string[]> data = general.get_min7day_statistic();
 
@@ -44,12 +44,12 @@ namespace perpustakaan_app
                 chart_home.Series["statistik"].Points.AddXY(data[i][0], data[i][1]);
                 chart_home.Series["statistik"].Points[i].Label = data[i][1];
             }
-        }
+        }*/
 
-        private void btn_update_Click(object sender, EventArgs e)
+        /*private void btn_update_Click(object sender, EventArgs e)
         {
             update_statistik();
-        }
+        }*/
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -57,6 +57,11 @@ namespace perpustakaan_app
         }
 
         private void beranda_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart_home_Click(object sender, EventArgs e)
         {
 
         }

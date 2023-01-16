@@ -21,7 +21,7 @@ namespace perpustakaan_app
             this.MaximumSize = new System.Drawing.Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
             this.MinimumSize = new System.Drawing.Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
 
-            default_page();
+           default_page();
         }
 
         private void menu_user()
@@ -33,7 +33,7 @@ namespace perpustakaan_app
                 btn_member.Visible = false;
                 btn_petugas.Visible = false;
 
-                btn_pengunjung.Location = new Point(16, 172);
+               /* btn_pengunjung.Location = new Point(16, 172);*/
             }
             else if (status_level.Text == "PELAYANAN")
             {
@@ -44,7 +44,7 @@ namespace perpustakaan_app
                 btn_pinjam.Location = new Point(16, 70);
                 btn_kembali.Location = new Point(16, 121);
                 btn_member.Location = new Point(16, 172);
-                btn_pengunjung.Location = new Point(16, 223);
+               /* btn_pengunjung.Location = new Point(16, 223);*/
             }
         }
 
@@ -186,5 +186,23 @@ namespace perpustakaan_app
             home.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Apakah anda yakin ingin Keluar Aplikasi.?", "Konfirmasi", MessageBoxButtons.YesNoCancel);
+            if (dr == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void panel_content_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

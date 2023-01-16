@@ -16,12 +16,12 @@ namespace perpustakaan_app
         {
             InitializeComponent();
 
-            add_checkbox();
+            /*add_checkbox();*/
 
             show_pengunjung();
         }
 
-        private void add_checkbox(){
+        /*private void add_checkbox(){
             var data = stat.date_found();
 
             for (int i = 0; i < data.Count; i++)
@@ -32,9 +32,9 @@ namespace perpustakaan_app
             {
                 cmb_selesai.Items.Add(data[i]);
             }
-            cmb_mulai.Text = data[0];
+            //cmb_mulai.Text = data[0];
             cmb_selesai.Text = data[data.Count-1];
-        }
+        }*/
 
         private void btn_tampil_Click(object sender, EventArgs e)
         {
@@ -63,6 +63,11 @@ namespace perpustakaan_app
             dgv_data_pengunjung.Columns[1].Width = 120;
             dgv_data_pengunjung.Columns[2].Width = 200;
             dgv_data_pengunjung.Columns[3].Width = 300;
+        }
+
+        private void dgv_data_pengunjung_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

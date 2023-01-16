@@ -49,7 +49,6 @@
             this.txt_denda = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btn_cetak_kembali = new System.Windows.Forms.Button();
             this.txt_alamat = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.lbl_telp = new System.Windows.Forms.Label();
@@ -68,63 +67,63 @@
             // 
             // txt_idp
             // 
-            this.txt_idp.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_idp.Location = new System.Drawing.Point(378, 85);
+            this.txt_idp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_idp.Location = new System.Drawing.Point(408, 81);
             this.txt_idp.Name = "txt_idp";
             this.txt_idp.ReadOnly = true;
-            this.txt_idp.Size = new System.Drawing.Size(161, 25);
+            this.txt_idp.Size = new System.Drawing.Size(161, 24);
             this.txt_idp.TabIndex = 27;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(286, 89);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.Size = new System.Drawing.Size(86, 16);
             this.label6.TabIndex = 26;
             this.label6.Text = "ID Pegawai";
             // 
             // txt_idm
             // 
-            this.txt_idm.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_idm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_idm.Location = new System.Drawing.Point(106, 129);
             this.txt_idm.Name = "txt_idm";
             this.txt_idm.ReadOnly = true;
-            this.txt_idm.Size = new System.Drawing.Size(168, 25);
+            this.txt_idm.Size = new System.Drawing.Size(168, 24);
             this.txt_idm.TabIndex = 21;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(14, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 16);
+            this.label3.Size = new System.Drawing.Size(82, 16);
             this.label3.TabIndex = 20;
             this.label3.Text = "ID Member";
             // 
             // txt_id
             // 
-            this.txt_id.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_id.Location = new System.Drawing.Point(106, 86);
             this.txt_id.Name = "txt_id";
-            this.txt_id.Size = new System.Drawing.Size(168, 25);
+            this.txt_id.Size = new System.Drawing.Size(168, 24);
             this.txt_id.TabIndex = 19;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(14, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 16);
+            this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 18;
             this.label2.Text = "ID Pinjam";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SlateGray;
+            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel1.Controls.Add(this.label_header);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
@@ -134,30 +133,30 @@
             // label_header
             // 
             this.label_header.AutoSize = true;
-            this.label_header.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_header.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_header.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label_header.Location = new System.Drawing.Point(12, 19);
             this.label_header.Name = "label_header";
-            this.label_header.Size = new System.Drawing.Size(181, 25);
+            this.label_header.Size = new System.Drawing.Size(221, 25);
             this.label_header.TabIndex = 0;
             this.label_header.Text = "Form Pengembalian";
             // 
             // txt_tgl
             // 
-            this.txt_tgl.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_tgl.Location = new System.Drawing.Point(378, 126);
+            this.txt_tgl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_tgl.Location = new System.Drawing.Point(408, 127);
             this.txt_tgl.Name = "txt_tgl";
             this.txt_tgl.ReadOnly = true;
-            this.txt_tgl.Size = new System.Drawing.Size(161, 25);
+            this.txt_tgl.Size = new System.Drawing.Size(161, 24);
             this.txt_tgl.TabIndex = 39;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(286, 130);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 16);
+            this.label4.Size = new System.Drawing.Size(116, 16);
             this.label4.TabIndex = 38;
             this.label4.Text = "Tanggal Pinjam";
             // 
@@ -187,10 +186,10 @@
             // check_denda
             // 
             this.check_denda.AutoSize = true;
-            this.check_denda.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.check_denda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_denda.Location = new System.Drawing.Point(168, 284);
             this.check_denda.Name = "check_denda";
-            this.check_denda.Size = new System.Drawing.Size(84, 20);
+            this.check_denda.Size = new System.Drawing.Size(98, 20);
             this.check_denda.TabIndex = 45;
             this.check_denda.Text = "Buku Hilang";
             this.check_denda.UseVisualStyleBackColor = true;
@@ -201,7 +200,7 @@
             this.dgv_buku_pinjam.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(5);
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -211,7 +210,7 @@
             this.dgv_buku_pinjam.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -239,19 +238,19 @@
             // 
             // btn_kembali
             // 
-            this.btn_kembali.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_kembali.BackColor = System.Drawing.Color.DodgerBlue;
             this.btn_kembali.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_kembali.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_kembali.FlatAppearance.BorderSize = 0;
             this.btn_kembali.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_kembali.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_kembali.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_kembali.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_kembali.Image = global::perpustakaan_app.Properties.Resources.buku_kembali;
             this.btn_kembali.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_kembali.Location = new System.Drawing.Point(316, 275);
+            this.btn_kembali.Location = new System.Drawing.Point(296, 275);
             this.btn_kembali.Name = "btn_kembali";
             this.btn_kembali.Padding = new System.Windows.Forms.Padding(5, 0, 2, 0);
-            this.btn_kembali.Size = new System.Drawing.Size(116, 33);
+            this.btn_kembali.Size = new System.Drawing.Size(136, 33);
             this.btn_kembali.TabIndex = 42;
             this.btn_kembali.Text = "KEMBALIKAN";
             this.btn_kembali.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -260,28 +259,27 @@
             // 
             // txt_denda
             // 
-            this.txt_denda.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_denda.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_denda.Location = new System.Drawing.Point(61, 281);
             this.txt_denda.Name = "txt_denda";
             this.txt_denda.ReadOnly = true;
-            this.txt_denda.Size = new System.Drawing.Size(99, 25);
+            this.txt_denda.Size = new System.Drawing.Size(99, 24);
             this.txt_denda.TabIndex = 23;
             this.txt_denda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_denda_KeyPress);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(12, 285);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 16);
+            this.label11.Size = new System.Drawing.Size(53, 16);
             this.label11.TabIndex = 22;
             this.label11.Text = "Denda";
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel3.Controls.Add(this.btn_cetak_kembali);
+            this.panel3.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel3.Controls.Add(this.txt_alamat);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.lbl_telp);
@@ -295,32 +293,11 @@
             this.panel3.Size = new System.Drawing.Size(257, 328);
             this.panel3.TabIndex = 0;
             // 
-            // btn_cetak_kembali
-            // 
-            this.btn_cetak_kembali.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_cetak_kembali.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cetak_kembali.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cetak_kembali.FlatAppearance.BorderSize = 0;
-            this.btn_cetak_kembali.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cetak_kembali.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cetak_kembali.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cetak_kembali.Image = global::perpustakaan_app.Properties.Resources.cetak;
-            this.btn_cetak_kembali.Location = new System.Drawing.Point(16, 235);
-            this.btn_cetak_kembali.Name = "btn_cetak_kembali";
-            this.btn_cetak_kembali.Padding = new System.Windows.Forms.Padding(5, 0, 2, 0);
-            this.btn_cetak_kembali.Size = new System.Drawing.Size(222, 42);
-            this.btn_cetak_kembali.TabIndex = 41;
-            this.btn_cetak_kembali.Text = "  CETAK STRUK";
-            this.btn_cetak_kembali.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_cetak_kembali.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_cetak_kembali.UseVisualStyleBackColor = false;
-            this.btn_cetak_kembali.Click += new System.EventHandler(this.btn_cetak_kembali_Click);
-            // 
             // txt_alamat
             // 
-            this.txt_alamat.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txt_alamat.BackColor = System.Drawing.Color.DodgerBlue;
             this.txt_alamat.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_alamat.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_alamat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_alamat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txt_alamat.Location = new System.Drawing.Point(16, 147);
             this.txt_alamat.Multiline = true;
@@ -328,100 +305,108 @@
             this.txt_alamat.ReadOnly = true;
             this.txt_alamat.Size = new System.Drawing.Size(214, 82);
             this.txt_alamat.TabIndex = 7;
-            this.txt_alamat.Text = "Dk Gebangarum Ds Plumpungrejo KecWonoasri Madiun, kode pos 63157";
+            this.txt_alamat.Text = "Yogyakarta";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label12.Location = new System.Drawing.Point(12, 122);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(58, 20);
+            this.label12.Size = new System.Drawing.Size(69, 18);
             this.label12.TabIndex = 6;
             this.label12.Text = "Alamat :";
             // 
             // lbl_telp
             // 
             this.lbl_telp.AutoSize = true;
-            this.lbl_telp.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_telp.BackColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_telp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_telp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_telp.Location = new System.Drawing.Point(107, 86);
+            this.lbl_telp.Location = new System.Drawing.Point(150, 86);
             this.lbl_telp.Name = "lbl_telp";
-            this.lbl_telp.Size = new System.Drawing.Size(93, 20);
+            this.lbl_telp.Size = new System.Drawing.Size(40, 18);
             this.lbl_telp.TabIndex = 5;
-            this.lbl_telp.Text = "089789654367";
+            this.lbl_telp.Text = "0811";
+            this.lbl_telp.Click += new System.EventHandler(this.lbl_telp_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(12, 86);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 20);
+            this.label10.Size = new System.Drawing.Size(110, 18);
             this.label10.TabIndex = 4;
             this.label10.Text = "No. Telepon :";
             // 
             // lbl_nama
             // 
             this.lbl_nama.AutoSize = true;
-            this.lbl_nama.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nama.BackColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_nama.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nama.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_nama.Location = new System.Drawing.Point(68, 53);
+            this.lbl_nama.Location = new System.Drawing.Point(150, 53);
             this.lbl_nama.Name = "lbl_nama";
-            this.lbl_nama.Size = new System.Drawing.Size(84, 20);
+            this.lbl_nama.Size = new System.Drawing.Size(48, 18);
             this.lbl_nama.TabIndex = 3;
-            this.lbl_nama.Text = "Kahfi Baidowi";
+            this.lbl_nama.Text = "admin";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Location = new System.Drawing.Point(12, 53);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(50, 20);
+            this.label8.Size = new System.Drawing.Size(62, 18);
             this.label8.TabIndex = 2;
             this.label8.Text = "Nama :";
             // 
             // lbl_idm
             // 
             this.lbl_idm.AutoSize = true;
-            this.lbl_idm.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_idm.BackColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_idm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_idm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_idm.Location = new System.Drawing.Point(95, 22);
+            this.lbl_idm.Location = new System.Drawing.Point(154, 21);
             this.lbl_idm.Name = "lbl_idm";
-            this.lbl_idm.Size = new System.Drawing.Size(51, 20);
+            this.lbl_idm.Size = new System.Drawing.Size(56, 18);
             this.lbl_idm.TabIndex = 1;
             this.lbl_idm.Text = "000001";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(12, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
+            this.label1.Size = new System.Drawing.Size(100, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Member :";
             // 
             // btn_cari
             // 
-            this.btn_cari.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_cari.BackColor = System.Drawing.Color.DodgerBlue;
             this.btn_cari.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_cari.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cari.FlatAppearance.BorderSize = 0;
             this.btn_cari.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cari.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cari.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cari.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_cari.Image = global::perpustakaan_app.Properties.Resources.update;
             this.btn_cari.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_cari.Location = new System.Drawing.Point(632, 82);
+            this.btn_cari.Location = new System.Drawing.Point(618, 82);
             this.btn_cari.Name = "btn_cari";
             this.btn_cari.Padding = new System.Windows.Forms.Padding(5, 0, 2, 0);
-            this.btn_cari.Size = new System.Drawing.Size(106, 66);
+            this.btn_cari.Size = new System.Drawing.Size(120, 66);
             this.btn_cari.TabIndex = 43;
             this.btn_cari.Text = "CARI DATA";
             this.btn_cari.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -483,7 +468,6 @@
         private System.Windows.Forms.Label lbl_idm;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_alamat;
-        public System.Windows.Forms.Button btn_cetak_kembali;
         private System.Windows.Forms.Panel panel4;
         public System.Windows.Forms.Button btn_kembali;
         public System.Windows.Forms.Panel panel_pinjam;

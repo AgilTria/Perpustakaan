@@ -45,12 +45,16 @@
             this.btn_tambah = new System.Windows.Forms.Button();
             this.txt_page = new System.Windows.Forms.TextBox();
             this.label_page = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_data_buku)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // cmb_kategori_cari
             // 
-            this.cmb_kategori_cari.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_kategori_cari.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_kategori_cari.FormattingEnabled = true;
             this.cmb_kategori_cari.Items.AddRange(new object[] {
             "judul",
@@ -75,31 +79,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(7, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 25);
+            this.label1.Size = new System.Drawing.Size(121, 25);
             this.label1.TabIndex = 22;
             this.label1.Text = "Data Buku";
             // 
             // label_info
             // 
             this.label_info.AutoSize = true;
-            this.label_info.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_info.BackColor = System.Drawing.SystemColors.Control;
+            this.label_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_info.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label_info.Location = new System.Drawing.Point(10, 515);
             this.label_info.Name = "label_info";
-            this.label_info.Size = new System.Drawing.Size(176, 16);
+            this.label_info.Size = new System.Drawing.Size(207, 16);
             this.label_info.TabIndex = 21;
             this.label_info.Text = "Menampilkan                  Data Buku.";
             // 
             // txt_cari
             // 
-            this.txt_cari.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cari.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_cari.ImeMode = System.Windows.Forms.ImeMode.Katakana;
             this.txt_cari.Location = new System.Drawing.Point(649, 89);
             this.txt_cari.Name = "txt_cari";
-            this.txt_cari.Size = new System.Drawing.Size(154, 25);
+            this.txt_cari.Size = new System.Drawing.Size(154, 24);
             this.txt_cari.TabIndex = 18;
             this.txt_cari.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_cari_KeyUp);
             // 
@@ -108,7 +115,7 @@
             this.dgv_data_buku.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(5);
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -118,7 +125,7 @@
             this.dgv_data_buku.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -146,6 +153,8 @@
             // 
             // cmb_length
             // 
+            this.cmb_length.BackColor = System.Drawing.SystemColors.Control;
+            this.cmb_length.ForeColor = System.Drawing.SystemColors.InfoText;
             this.cmb_length.FormattingEnabled = true;
             this.cmb_length.Items.AddRange(new object[] {
             "5",
@@ -161,13 +170,13 @@
             // 
             // btn_next_page
             // 
-            this.btn_next_page.BackColor = System.Drawing.Color.Gray;
+            this.btn_next_page.BackColor = System.Drawing.SystemColors.Control;
             this.btn_next_page.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_next_page.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_next_page.FlatAppearance.BorderSize = 0;
             this.btn_next_page.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_next_page.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_next_page.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_next_page.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_next_page.ForeColor = System.Drawing.SystemColors.InfoText;
             this.btn_next_page.Image = global::perpustakaan_app.Properties.Resources.next;
             this.btn_next_page.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_next_page.Location = new System.Drawing.Point(738, 509);
@@ -182,13 +191,13 @@
             // 
             // btn_prev_page
             // 
-            this.btn_prev_page.BackColor = System.Drawing.Color.Gray;
+            this.btn_prev_page.BackColor = System.Drawing.SystemColors.Control;
             this.btn_prev_page.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_prev_page.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_prev_page.FlatAppearance.BorderSize = 0;
             this.btn_prev_page.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prev_page.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_prev_page.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_prev_page.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_prev_page.ForeColor = System.Drawing.SystemColors.InfoText;
             this.btn_prev_page.Image = global::perpustakaan_app.Properties.Resources.prev;
             this.btn_prev_page.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_prev_page.Location = new System.Drawing.Point(570, 510);
@@ -208,14 +217,14 @@
             this.btn_hapus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_hapus.FlatAppearance.BorderSize = 0;
             this.btn_hapus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_hapus.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_hapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hapus.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_hapus.Image = global::perpustakaan_app.Properties.Resources.hapus;
             this.btn_hapus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_hapus.Location = new System.Drawing.Point(214, 84);
+            this.btn_hapus.Location = new System.Drawing.Point(240, 84);
             this.btn_hapus.Name = "btn_hapus";
             this.btn_hapus.Padding = new System.Windows.Forms.Padding(5, 0, 2, 0);
-            this.btn_hapus.Size = new System.Drawing.Size(84, 32);
+            this.btn_hapus.Size = new System.Drawing.Size(97, 32);
             this.btn_hapus.TabIndex = 20;
             this.btn_hapus.Text = "HAPUS";
             this.btn_hapus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -229,14 +238,14 @@
             this.btn_edit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_edit.FlatAppearance.BorderSize = 0;
             this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_edit.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_edit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_edit.Image = global::perpustakaan_app.Properties.Resources.edit;
             this.btn_edit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_edit.Location = new System.Drawing.Point(110, 84);
+            this.btn_edit.Location = new System.Drawing.Point(123, 84);
             this.btn_edit.Name = "btn_edit";
             this.btn_edit.Padding = new System.Windows.Forms.Padding(5, 0, 2, 0);
-            this.btn_edit.Size = new System.Drawing.Size(94, 32);
+            this.btn_edit.Size = new System.Drawing.Size(111, 32);
             this.btn_edit.TabIndex = 19;
             this.btn_edit.Text = "SUNTING";
             this.btn_edit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -245,19 +254,19 @@
             // 
             // btn_tambah
             // 
-            this.btn_tambah.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btn_tambah.BackColor = System.Drawing.Color.DodgerBlue;
             this.btn_tambah.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_tambah.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tambah.FlatAppearance.BorderSize = 0;
             this.btn_tambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_tambah.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_tambah.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_tambah.Image = global::perpustakaan_app.Properties.Resources.tambah;
             this.btn_tambah.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_tambah.Location = new System.Drawing.Point(13, 84);
             this.btn_tambah.Name = "btn_tambah";
             this.btn_tambah.Padding = new System.Windows.Forms.Padding(5, 0, 2, 0);
-            this.btn_tambah.Size = new System.Drawing.Size(87, 32);
+            this.btn_tambah.Size = new System.Drawing.Size(104, 32);
             this.btn_tambah.TabIndex = 17;
             this.btn_tambah.Text = "TAMBAH";
             this.btn_tambah.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -266,7 +275,9 @@
             // 
             // txt_page
             // 
+            this.txt_page.BackColor = System.Drawing.SystemColors.Control;
             this.txt_page.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_page.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txt_page.Location = new System.Drawing.Point(644, 510);
             this.txt_page.Name = "txt_page";
             this.txt_page.Size = new System.Drawing.Size(42, 26);
@@ -277,12 +288,32 @@
             // label_page
             // 
             this.label_page.AutoSize = true;
-            this.label_page.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_page.BackColor = System.Drawing.SystemColors.Control;
+            this.label_page.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_page.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label_page.Location = new System.Drawing.Point(688, 513);
             this.label_page.Name = "label_page";
-            this.label_page.Size = new System.Drawing.Size(22, 20);
+            this.label_page.Size = new System.Drawing.Size(24, 18);
             this.label_page.TabIndex = 29;
             this.label_page.Text = "/ 1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pictureBox1.Location = new System.Drawing.Point(-6, -2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(830, 55);
+            this.pictureBox1.TabIndex = 53;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox2.Location = new System.Drawing.Point(-6, 500);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(830, 55);
+            this.pictureBox2.TabIndex = 54;
+            this.pictureBox2.TabStop = false;
             // 
             // buku
             // 
@@ -304,10 +335,14 @@
             this.Controls.Add(this.txt_cari);
             this.Controls.Add(this.btn_tambah);
             this.Controls.Add(this.dgv_data_buku);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "buku";
             this.Text = "buku_add";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_data_buku)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -329,8 +364,7 @@
         public System.Windows.Forms.Button btn_prev_page;
         public System.Windows.Forms.Button btn_next_page;
         public System.Windows.Forms.Label label_page;
-
-
-
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

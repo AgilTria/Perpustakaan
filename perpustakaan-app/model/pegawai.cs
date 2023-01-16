@@ -17,7 +17,7 @@ namespace perpustakaan_app.model
 
         public DataTable search_pegawai(string k, string q, string posisi, string batas)
         {
-            var result = db.get_data("select id_pegawai, nama_lengkap, jabatan, no_telp, alamat, aktif from tb_pegawai where " + k + " like '%" + q + "%' order by nama_lengkap asc limit "+posisi+","+batas);
+            var result = db.get_data("select id_pegawai, nama_lengkap, jabatan, no_telp, alamat, aktif from tb_pegawai where " + k + " like '%" + q + "%' order by nama_lengkap asc limit " + posisi + "," + batas);
             result.Columns[5].MaxLength = 20;
 
             foreach (DataRow dr in result.Rows)
@@ -30,7 +30,7 @@ namespace perpustakaan_app.model
 
         public string[] get_pegawai(string id)
         {
-            var result = db.get_data("select id_pegawai, nama_lengkap, alamat, no_telp, jabatan, aktif from tb_pegawai where id_pegawai='"+id+"'");
+            var result = db.get_data("select id_pegawai, nama_lengkap, alamat, no_telp, jabatan, aktif from tb_pegawai where id_pegawai='" + id + "'");
 
             string[] data = {
                      result.Rows[0][0].ToString(),
@@ -57,7 +57,7 @@ namespace perpustakaan_app.model
 
             if (password != "")
             {
-                db.execute("update tb_pegawai set passwd='" + lib.md5_hash(password) + "' where id_pegawai='"+id+"'");
+                db.execute("update tb_pegawai set passwd='" + lib.md5_hash(password) + "' where id_pegawai='" + id + "'");
             }
         }
 
@@ -74,7 +74,7 @@ namespace perpustakaan_app.model
 
             if (password != "")
             {
-                db.execute("update tb_pegawai set passwd='" + lib.md5_hash(password) + "' where id_pegawai='"+id+"'");
+                db.execute("update tb_pegawai set passwd='" + lib.md5_hash(password) + "' where id_pegawai='" + id + "'");
             }
         }
 

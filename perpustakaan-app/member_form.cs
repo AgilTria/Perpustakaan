@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace perpustakaan_app
@@ -26,6 +27,8 @@ namespace perpustakaan_app
             anggota.update_member(txt_id.Text, txt_nama.Text, txt_alamat.Text, txt_telp.Text, check_aktif.Checked, check_panjang.Checked);
             MessageBox.Show("Berhasil Mengubah Member.!", "Message");
             data.show_all_member();
+
+            
         }
 
         private void btn_tambah_Click(object sender, EventArgs e)
